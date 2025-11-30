@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Sheet Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="loading">
+    <div id="loadingText">Loading…</div>
+    <div id="progressContainer">
+      <div id="loadingBar"></div>
+    </div>
+  </div>
+
+  <div id="randomBox" style="display:none;">
+    <h2>Random Imi</h2>
+    <button id="randomBtn">Choose for me</button>
+    <div id="randomContent"></div>
+  </div>
+
+  <!-- Scrollable table container -->
+  <div id="tableContainer">
+    <table id="sheetTable"></table>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
